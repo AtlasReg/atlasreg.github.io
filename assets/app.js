@@ -101,7 +101,7 @@
     submit.disabled = true;
     submit.textContent = 'در حال ارسال درخواست…';
     try {
-      const response = await fetch('https://formsubmit.co/ajax/Atlascompanyinfo@proton.me', {
+      const response = await fetch('https://formsubmit.co/ajax/info@atlassabt.com', {
         method: 'POST',
         mode: 'cors',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
